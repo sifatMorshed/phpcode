@@ -2,36 +2,14 @@
 
 //phpinfo();
 
-$name = 'cats';
-$age=2;
+$name = 'cat';
+$age=21;
 
-if (strtolower($name)=='cat') 
-{
-    if ($age>=21)
-    {
-      echo 'you\'r over 21';
-    
-if(1==1)
-
-{
- echo '1 is 1';
-}
-
-else 
-{
-    echo 'not voer 21';
-}
-
-}
-
-else 
-{
-    echo 'you\r not cat';
-}
-
-}
+echo '<input type = "text" value = "Alex">';
 
 ?>
+
+<input type = "text" value = "<?php echo $name; ?>">
 
 <html>
 
